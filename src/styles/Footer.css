@@ -1,0 +1,116 @@
+.footer {
+  width: 100%;
+  background-color: #121619;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.quickLinks {
+  flex: 1;
+  text-align: left; 
+  margin-left: 30px;
+}
+
+.quickLinks h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.quickLinks a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  position: absolute; 
+  top: 20px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  margin-top: 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px; 
+}
+
+.icons a {
+  margin: 0 15px; 
+}
+
+.socialMedia svg {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.socialMedia p {
+  margin-top: 10px;
+}
+
+.contactInfo {
+  flex: 1;
+  text-align: right;
+  margin-left: 850px;
+}
+
+.contactInfo p {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: white;
+}
+.contactInfo h3 {
+  margin-right: 200px;
+  color: white;
+}
+
+.contactInfo svg {
+  margin-right: 10px;
+}
+.quickLinks a {
+  display: block;
+  margin: 10px 0;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding-left: 20px; 
+}
+
+.quickLinks a::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.quickLinks a:hover {
+  color: #f0a500;
+  background-color: #1e1e1e; 
+  transition: 0.3s ease;
+  padding-left: 30px; 
+}
+
+
+.quickLinks a:active {
+  color: #f0a500; 
+  font-weight: bold; 
+}
